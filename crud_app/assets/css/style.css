@@ -5,7 +5,9 @@
     --light: #adb5bd;
     --border: #dee2e6;
     --border-btn: #edf2f4;
+    --tr-color: #06d6a0;
 }
+/* 
 *{
     padding: 0;
     margin: 0;
@@ -19,7 +21,7 @@ a{
     max-width: 400px;
     margin: auto;
 }
-
+*/
 .nav-brand{
     font-size: 1.5em;
     font-weight: bold;
@@ -88,4 +90,17 @@ table{
     padding: .3em 1em;
     font-size: 1.1em;
     margin: 0 .2em;
+}
+.table tr:hover{
+    background-color: var(--tr-color);
+
+}
+.table tr:hover td>a{
+    box-shadow:none;
+}
+.table .thead-dark th{
+    color:#fff;
+    background-color:var(--dark);
+    border-color: #32383e;
+
 }
